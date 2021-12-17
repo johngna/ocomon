@@ -1,0 +1,28 @@
+*   Trying ::1:80...
+* TCP_NODELAY set
+* Connected to localhost (::1) port 80 (#0)
+> POST /projetos/ocomom/api/ocomon_api/tickets HTTP/1.1
+Host: localhost
+Accept: */*
+login: admin
+app: chamados_por_email
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2Mzg4OTY3NjIsImV4cCI6MTY3MDQzMjc2MiwiaXNzIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9vY29tb25fNC4wIiwiZGF0YSI6eyJ1c2VyIjoxLCJsZXZlbCI6IjEiLCJhcHAiOiJjaGFtYWRvc19wb3JfZW1haWwifX0.KHxaQK-5f3QcyXPMpblt4uBZgXzqNWTyUdOT6jb25t0
+Content-Length: 2418
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 100 Continue
+* We are completely uploaded and fine
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 404 Not Found
+< Date: Tue, 07 Dec 2021 18:24:49 GMT
+< Server: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.3
+< Vary: accept-language,accept-charset
+< Accept-Ranges: bytes
+< Access-Control-Allow-Origin: *
+< Transfer-Encoding: chunked
+< Content-Type: text/html; charset=utf-8
+< Content-Language: en
+< 
+* Connection #0 to host localhost left intact
